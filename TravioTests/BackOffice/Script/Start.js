@@ -75,9 +75,9 @@ function ServicesCheck()
 
 function CheckTabs()
 {
-Log.CreateFolder("Testing of tabs");
   Start();
   Auth();
+  Log.AppendFolder("Testing of tabs");
   let id = params.m_auth.id;
   let uptab = Sys.Process("Travio.BackOffice").WaitWPFObject("HwndSource: DockWindow", "", 0).FindAllChildren("Name", "*ContentPresenter*",3);
   Log.Message("Check for "+params.m_auth.name[id]);
@@ -91,7 +91,6 @@ Log.CreateFolder("Testing of tabs");
   let tab_name;
   for(let key of tab)
   {
-  
   tab_name=key.WPFControlText;
   let access = tmp_map.get(tab_name);
     if(((id==1) &&(access==id ||access==3 ))
@@ -116,17 +115,6 @@ Log.CreateFolder("Testing of tabs");
        }
      }
   }
-  /*
-    case 1:{
-      if(uptab.length ==3)
-       {return true}
-       else {return false}
-      break;}
-    default: Log.Warning("Undefined user")
-  }*/
- 
-//WPFControlText
-  
 }
 
 function test()

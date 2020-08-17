@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Travio.BackOffice already started"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44057.6345897454"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{52EAC7F1-F1C2-401A-B60A-8969F956EB57}"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="BackOffice already logined."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44057.6345910185"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Missing tab &quot;Правда&quot;"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44057.6345922454"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="118"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="is Administrator"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44057.6345914815"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="81"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Travio.BackOffice already started"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44057.6345903356"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

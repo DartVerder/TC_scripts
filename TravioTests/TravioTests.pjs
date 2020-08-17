@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{E03EF910-BF4B-48E2-B3C4-9CEE18C06D9E}">
+	<children>
+		<child name="BackOffice" key="{5964CE20-D943-4EEC-9679-AAA0360EA0F8}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="BackOffice\BackOffice.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{460602C3-58F7-41B5-8FC8-4312ECF460B4}">
+		<children>
+			<testItem key="{5964CE20-D943-4EEC-9679-AAA0360EA0F8}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{4A644CB7-FEDC-45BC-83D7-0DF911157EFC}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{7F002DD5-52B2-4F0C-8DB5-97AD7F464484}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>

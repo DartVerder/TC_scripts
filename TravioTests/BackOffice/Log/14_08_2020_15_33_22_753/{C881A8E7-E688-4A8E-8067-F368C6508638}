@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 10">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Upper tabs is ok"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6483150579"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="233"/>
+					<Prp name="object left" type="I" value="364"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.Travio_BackOffice.HwndSource_MainWindow.MainWindow.ContentControl.WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;loginTextBox&quot;)"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="object right" type="I" value="735"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="382"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44057.4815653241"/>
+					<Prp name="object bottom" type="I" value="277"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (18, 2) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Travio.BackOffice&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;TraVio BackOffice&quot;).WPFObject(&quot;MainWindow&quot;, &quot;TraVio BackOffice&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;loginTextBox&quot;)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6482331597"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Authentication of Administrator was success."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6483140278"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 9">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Check for Administrator"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="82"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.648314375"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="364"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.Travio_BackOffice.HwndSource_MainWindow.MainWindow.ContentControl.WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;loginTextBox&quot;)"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="object right" type="I" value="735"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44057.4815676042"/>
+					<Prp name="object bottom" type="I" value="277"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'Administrator' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Travio.BackOffice&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;TraVio BackOffice&quot;).WPFObject(&quot;MainWindow&quot;, &quot;TraVio BackOffice&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;loginTextBox&quot;)"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6482386806"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Testing of tabs"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="77"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6481889699"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Travio.BackOffice already started"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6481894907"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{52EAC7F1-F1C2-401A-B60A-8969F956EB57}"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="377"/>
+					<Prp name="object left" type="I" value="364"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.Travio_BackOffice.HwndSource_MainWindow.MainWindow.ContentControl.WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;Button&quot;, &quot;Вход&quot;, 1)"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="object top" type="I" value="357"/>
+					<Prp name="object right" type="I" value="490"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="427"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44057.4815787153"/>
+					<Prp name="object bottom" type="I" value="398"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (63, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Travio.BackOffice&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;TraVio BackOffice&quot;).WPFObject(&quot;MainWindow&quot;, &quot;TraVio BackOffice&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;Button&quot;, &quot;Вход&quot;, 1)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6482464468"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="364"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.Travio_BackOffice.HwndSource_MainWindow.MainWindow.ContentControl.WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;PasswordWatermarkTextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="object top" type="I" value="297"/>
+					<Prp name="object right" type="I" value="735"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44057.4815759954"/>
+					<Prp name="object bottom" type="I" value="343"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'1' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Travio.BackOffice&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;TraVio BackOffice&quot;).WPFObject(&quot;MainWindow&quot;, &quot;TraVio BackOffice&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;PasswordWatermarkTextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6482436806"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="320"/>
+					<Prp name="object left" type="I" value="364"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.Travio_BackOffice.HwndSource_MainWindow.MainWindow.ContentControl.WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;PasswordWatermarkTextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="object top" type="I" value="297"/>
+					<Prp name="object right" type="I" value="735"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="549"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44057.4815737268"/>
+					<Prp name="object bottom" type="I" value="343"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (185, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Travio.BackOffice&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;TraVio BackOffice&quot;).WPFObject(&quot;MainWindow&quot;, &quot;TraVio BackOffice&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentControl&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;LoginView&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;PasswordWatermarkTextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6482414815"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 2">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="message" type="S" value="Travio.BackOffice already started"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6481897685"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

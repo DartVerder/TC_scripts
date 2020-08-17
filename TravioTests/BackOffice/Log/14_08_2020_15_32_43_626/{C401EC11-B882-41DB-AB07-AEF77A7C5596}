@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="79"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="CheckTabs"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="remarks" type="S" value="The process ID is 44164."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Program Files\Elvees\Travio Configuration Manager\Travio.BackOffice.exe /crossroad&quot; started."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="44057.6477348611"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{52EAC7F1-F1C2-401A-B60A-8969F956EB57}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Succes starting Travio.BackOffice"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="date" type="D" value="44057.6477528819"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Travio.BackOffice already started"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="date" type="D" value="44057.6477529977"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 5">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test execution has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;Stop on Error&lt;/a&gt; project property is enabled.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; If you don't want the test to stop on errors, disable this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), or change your test commands so that they do not post errors to the log automatically. For instance, if some window or process was not found, use the WaitWindow, WaitProcess or similar methods to obtain the desired object.&lt;/p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="message" type="S" value="The test run has stopped because the &quot;Stop on Error&quot; setting is enabled."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="date" type="D" value="44057.6477553935"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Auth"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Testing of tabs"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44057.6477331366"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="77"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;FindChildEx&quot; method or property of an object that does not exist."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="date" type="D" value="44057.6477543518"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="400"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

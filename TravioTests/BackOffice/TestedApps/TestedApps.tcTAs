@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1140" key="{BA4EC2C8-020A-49B5-B4E2-E9F13EF69D66}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{12033B8B-A0FD-44C1-A2C4-49024F1F5572}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="Travio_BackOffice" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="Travio.BackOffice.exe" filePath="C:\Program Files\Elvees\Travio Configuration Manager\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{D154BEB3-3170-4816-9D4A-87681ABC3D3A}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="Travio_BackOffice1" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="/crossroad" workFolder="C:\Program Files\Elvees\Travio Configuration Manager\" userName="" password="" domain="" />
+					<param name="Profile" parameters="/crossroad" workFolder="C:\Program Files\Elvees\Travio Configuration Manager\" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="/crossroad" workFolder="C:\Program Files\Elvees\Travio Configuration Manager\" />
+					<param name="Simple" fileName="Travio.BackOffice.exe" filePath="C:\Program Files\Elvees\Travio Configuration Manager\" parameters="/crossroad" workFolder="C:\Program Files\Elvees\Travio Configuration Manager\" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+	<folders />
+</Root>
